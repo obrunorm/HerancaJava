@@ -1,21 +1,13 @@
 package HerancaAnimal;
 
-public class Cachorro extends Animal   {
+public class Cachorro extends Animal implements Correndo   {
 
 	//Variáveis
-		private String cordopelo;
 		private String Raça;
 		
 	
 		//Getters e Setters
-		public String getCordopelo() {
-			return cordopelo;
-		}
-		
-		public void setCordopelo(String cordopelo) {
-			this.cordopelo = cordopelo;
-		}
-
+	
 		public String getRaça() {
 			return Raça;
 		}
@@ -27,6 +19,20 @@ public class Cachorro extends Animal   {
 	
 	//Métodos
 	void brincar (String brincar) {
+		
+	}
+
+
+	@Override
+	public void correndo() {
+		// TODO Auto-generated method stub
+	
+	}
+
+
+	@Override
+	public void cordopelo() {
+		// TODO Auto-generated method stub
 		
 	}
 }

@@ -1,6 +1,6 @@
 package HerancaAnimal;
 
-public class Animal {
+public class Animal  {   //superclass
 	
 	//Variáveis 
 	//=====================================================================================//

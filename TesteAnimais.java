@@ -15,7 +15,8 @@ public class TesteAnimais {
 		cachorro1.setIdade(3);
 		cachorro1.setSom("Latir!!");
 		cachorro1.setAcelerar("Correr");
-		
+				
+		;
 		//cavalo
 		cavalo1.setNome("Spirit");
 		cavalo1.setIdade(15);
@@ -25,14 +26,16 @@ public class TesteAnimais {
 		//Preguiça
 		preguica1.setNome("Soneca");
 		preguica1.setIdade(20);
-		preguica1.setSom("Grito"); //https://www.youtube.com/watch?v=ZUnEoyIBuxM
+		preguica1.setSom("Grito!!"); //https://www.youtube.com/watch?v=ZUnEoyIBuxM
 		preguica1.setAcelerar("Subir árvore");
 		
 		//Mostra de variáveis
+		
 		//Nomes
 		System.out.println("O nome do cachorro é: " + cachorro1.getNome());
 		System.out.println("O nome do cavalo é: " + cavalo1.getNome());
 		System.out.println("O nome da preguiça é: " + preguica1.getNome());
+		
 		
 		//Idade
 		System.out.println("\nA idade do cachorro é: " + cachorro1.getIdade());
